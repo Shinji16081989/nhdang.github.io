@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Course</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Course Project">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../../../assets/css/bootstrap4/bootstrap.min.css">;
+	<link href="../../../plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="../../../plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="../../../plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+	<link rel="stylesheet" type="text/css" href="../../../plugins/OwlCarousel2-2.2.1/animate.css">
+	<link rel="stylesheet" href="../../../assets/css/main_styles.css">
+	<link rel="stylesheet" href="../../../assets/css/responsive.css">
+	<link rel="stylesheet" href="../../../assets/css/style.css">
+	<script src="../../models/KhoaHoc.js"></script>
+    <script src="../../models/DanhSachKhoaHoc.js"></script>    
+</head>
+
+<body>
+
+	<div class="super_container">
+
+		<!-- Header -->
+
+		<header class="header d-flex flex-row">
+			<div class="header_content d-flex flex-row align-items-center">
+				<!-- Logo -->
+				<div class="logo_container">
+					<div class="logo">
+						<img src="../../../assets/img/logo.png" alt="" style="max-width: 80%; max-height: 100%;">
+						<!-- <span>CyberSoft</span> -->
+					</div>
+				</div>
+
+				<!-- Main Navigation -->
+				<nav class="main_nav_container">
+					<div class="main_nav">
+						<ul class="main_nav_list">
+							<li class="main_nav_item">
+								<a href="#">Home</a>
+							</li>
+							<li class="main_nav_item">
+								<a href="#aboutus">Về Chúng Tôi</a>
+							</li>
+							<li class="main_nav_item">
+								<a href="courses.html">Khóa Học</a>
+							</li>
+							<li class="main_nav_item">
+								<a href="contact.html">Liên Hệ</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<div class="header_side d-flex flex-row justify-content-center align-items-center" style="white-space: nowrap;">
+				<img src="../../../assets/img/phone-call.svg" alt="">
+				<span>+84 961.05.10.14 - Mr.Song Lê</span>
+			</div>
+
+			<!-- Hamburger -->
+			<div class="hamburger_container">
+				<i class="fas fa-bars trans_200"></i>
+			</div>
+
+		</header>
+
+		<!-- Menu -->
+
+
+		<!-- Home -->
+
+		<div class="home">
+
+			<!-- Hero Slider -->
+			<div class="hero_slider_container">
+				<div class="hero_slider owl-carousel">
+
+					<!-- Hero Slide -->
+					<div class="hero_slide">
+						<div class="hero_slide_background" style="background-image:url(../../../assets/img/slider_backgroundtest.jpg)"></div>
+						<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
+							<div class="hero_slide_content text-center">
+								<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Tích Lũy
+									<span>Kiến Thức</span> Ngay Hôm Nay!</h1>
+							</div>
+						</div>
+					</div>
+
+					<!-- Hero Slide -->
+					<div class="hero_slide">
+						<div class="hero_slide_background" style="background-image:url(../../../assets/img/slider2.jpg)"></div>
+						<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
+							<div class="hero_slide_content text-center">
+								<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Tích Lũy
+									<span>Kiến Thức</span> Ngay Hôm Nay!</h1>
+							</div>
+						</div>
+					</div>
+
+					<!-- Hero Slide -->
+					<div class="hero_slide">
+						<div class="hero_slide_background" style="background-image:url(../../../assets/img/slider3.jpeg)"></div>
+						<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
+							<div class="hero_slide_content text-center">
+								<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Tích Lũy
+									<span>Kiến Thức</span> Ngay Hôm Nay!</h1>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="hero_slider_left hero_slider_nav trans_200">
+					<span class="trans_200">
+						<</span>
+				</div>
+				<div class="hero_slider_right hero_slider_nav trans_200">
+					<span class="trans_200">></span>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="hero_boxes">
+			<div class="hero_boxes_inner">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-lg-4 hero_box_col">
+							<div class="hero_box d-flex flex-row align-items-center justify-content-start">
+								<img src="../../../assets/img/earth-globe.svg" class="svg" alt="">
+								<div class="hero_box_content">
+									<h2 class="hero_box_title">Khóa Học Trực Tuyến</h2>
+									<a href="courses.html" class="hero_box_link">view more</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-4 hero_box_col">
+							<div class="hero_box d-flex flex-row align-items-center justify-content-start">
+								<img src="../../../assets/img/books.svg" class="svg" alt="">
+								<div class="hero_box_content">
+									<h2 class="hero_box_title">Thư Viện</h2>
+									<a href="courses.html" class="hero_box_link">view more</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-4 hero_box_col">
+							<div class="hero_box d-flex flex-row align-items-center justify-content-start">
+								<img src="../../../assets/img/professor.svg" class="svg" alt="">
+								<div class="hero_box_content">
+									<h2 class="hero_box_title">Giảng Viên</h2>
+									<a href="teachers.html" class="hero_box_link">view more</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Popular -->
+
+		<div class="popular page_section">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="section_title text-center">
+							<h1>Khóa Học Phổ Biến</h1>
+						</div>
+					</div>
+				</div>
+				<!-- test them id -->
+				<div class="row course_boxes" id=""> 
+
+					<!-- Popular Course Item -->
+					<div class="col-lg-4 course_box">
+						<div class="card">
+							<img class="card-img-top" src="../../../assets/img/chuyen-gia-lap-trinh-front-end-.jpg" alt="https://unsplash.com/@kellybrito">
+							<div class="card-body text-center">
+								<div class="card-title">
+									<a href="courses.html">Chuyên Gia Lập Trình</a>
+								</div>
+								<div class="card-text">Đào tạo & cấp chứng nhận Chuyên Gia Front End làm việc toàn cầu theo mô hình dự án.</div>
+							</div>
+							<div class="price_box d-flex flex-row align-items-center">
+								<div class="course_author_image">
+									<img src="../../../assets/img/author.jpg" alt="https://unsplash.com/@mehdizadeh">
+								</div>
+								<div class="course_author_name">Michael Smith,
+									<span>Author</span>
+								</div>
+								<div class="course_price d-flex flex-column align-items-center justify-content-center">
+									<span>$29</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Popular Course Item -->
+					<div class="col-lg-4 course_box">
+						<div class="card">
+							<img class="card-img-top" src="../../../assets/img/khoahocwebmyclass(option1)-01.jpg" alt="https://unsplash.com/@cikstefan">
+							<div class="card-body text-center">
+								<div class="card-title">
+									<a href="courses.html">Javasript và Reach JS</a>
+								</div>
+								<div class="card-text">Đào tạo & cấp chứng nhận Chuyên Gia lập trình Front End làm việc toàn cầu theo mô hình dự án.</div>
+							</div>
+							<div class="price_box d-flex flex-row align-items-center">
+								<div class="course_author_image">
+									<img src="../../../assets/img/author.jpg" alt="https://unsplash.com/@mehdizadeh">
+								</div>
+								<div class="course_author_name">Michael Smith,
+									<span>Author</span>
+								</div>
+								<div class="course_price d-flex flex-column align-items-center justify-content-center">
+									<span>$29</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Popular Course Item -->
+					<div class="col-lg-4 course_box">
+						<div class="card">
+							<img class="card-img-top" src="../../../assets/img/TU-DUY-LAP-TRINH-NEW.jpg" alt="https://unsplash.com/@dsmacinnes">
+							<div class="card-body text-center">
+								<div class="card-title">
+									<a href="courses.html">Tư Duy Lập Trình</a>
+								</div>
+								<div class="card-text">phân tích bài toán thực tế theo hướng đối tượng, thuật toán xử lý.</div>
+							</div>
+							<div class="price_box d-flex flex-row align-items-center">
+								<div class="course_author_image">
+									<img src="../../../assets/img/author.jpg" alt="https://unsplash.com/@mehdizadeh">
+								</div>
+								<div class="course_author_name">Michael Smith,
+									<span>Author</span>
+								</div>
+								<div class="course_price d-flex flex-column align-items-center justify-content-center">
+									<span>$29</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+
+			</div>
+		</div>
+
+		<!-- Register -->
+
+		<div class="register">
+
+			<div class="container-fluid">
+
+				<div class="row row-eq-height">
+					<div class="col-lg-6 nopadding">
+
+						<!-- Register -->
+
+						<div class="register_section d-flex flex-column align-items-center justify-content-center">
+							<div class="register_content text-center">
+								<h1 class="register_title">Đăng ký ngay trong tháng này để được giảm
+									<span>50%</span> học phí</h1>
+								<p class="register_text">MyClass.vn là dự án đầu tiên của chúng tôi, ngay từ ngày đầu khai trương, chúng tôi đã được rất nhiều bạn học viên
+									hưởng ứng khắp cả Việt Nam và rất nhiều bạn Việt Kiều ở nước ngoài. MyClass.vn đã thành lập từ 09-2014 và đến nay
+									đã được được rất nhiều thành tựu được nêu ra ngay bên dưới. Từ MyClass.vn, học viện CyberSoft.edu.vn ra đời dựa
+									trên những đề xuất của tất cả các bạn học viên mong muốn được chuyên sâu và có nghề thông qua những khóa học có
+									lộ trình và chuyên sâu.</p>
+								<div class="button button_1 register_button mx-auto trans_200">
+									<a href="#">Đăng Ký Ngay</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="col-lg-6 nopadding">
+
+						<!-- Search -->
+
+						<div class="search_section d-flex flex-column align-items-center justify-content-center">
+							<div class="search_background" style="background-image:url(../../../assets/img/search_background.jpg);"></div>
+							<div class="search_content text-center">
+								<h1 class="search_title">Sứ Mệnh Của Chúng Tôi</h1>
+								<h4>
+									<ul>
+										<li>CHÚNG TÔI HUẤN LUYỆN</li>
+										<li>CHÚNG TÔI ĐẠO TẠO</li>
+										<li>CHÚNG TÔI TƯ VẤN</li>
+										<li>CHÚNG TÔI HỖ TRỢ</li>
+										<li>CHÚNG TÔI CỘNG TÁC</li>
+										<li>CHÚNG TA CÙNG THÀNH CÔNG</li>
+									</ul>
+								</h4>
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Services -->
+
+		<div class="services page_section" id="aboutus">
+
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="section_title text-center">
+							<h1>Điều làm chúng tôi nổi bật</h1>
+						</div>
+					</div>
+				</div>
+
+				<div class="row services_row">
+
+					<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+						<div class="icon_container d-flex flex-column justify-content-end">
+							<img src="../../../assets/img/earth-globe.svg" alt="">
+						</div>
+						<h3>Học theo lộ trình, có định hướng</h3>
+						<p>CyberSoft sẽ định hướng và đưa ra các lộ trình học tập cho nghề bạn theo đuổi. Phát triển năng lực và niềm đam mê cảm
+							hứng lập trình của bạn.</p>
+					</div>
+
+					<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+						<div class="icon_container d-flex flex-column justify-content-end">
+							<img src="../../../assets/img/exam.svg" alt="">
+						</div>
+						<h3>Nền tảng, tư duy, cốt lõi trong lập trình</h3>
+						<p>CyberSoft cung cấp những nền tảng, giá trị tư duy cốt lõi nhất trong lập trình. Bạn sẽ tự tin trước sự thay đổi của
+							công nghệ và môi trường làm việc.</p>
+					</div>
+
+					<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+						<div class="icon_container d-flex flex-column justify-content-end">
+							<img src="../../../assets/img/books.svg" alt="">
+						</div>
+						<h3>Mài giũa bạn qua kinh nghiệm, dự án thực tế</h3>
+						<p>Đội ngũ Giảng viên và các Mentor là những người dày dạn kinh nghiệm qua các dự án thực tế tại các công ty lớn sẽ truyền
+							đạt những kinh nghiệm "máu lửa" cho bạn.</p>
+					</div>
+
+					<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+						<div class="icon_container d-flex flex-column justify-content-end">
+							<img src="../../../assets/img/professor.svg" alt="">
+						</div>
+						<h3>Teamwork, Scrum - Agile. Mentor tận tâm</h3>
+						<p>Bạn sẽ được giao dự án và làm theo Teamwork ngay từ ngày đầu tiên. Đóng vai trò một thành viên trong qui trình Scrum,
+							Agile. Được Mentor hỗ trợ tân tâm, nhiệt tình.</p>
+					</div>
+
+					<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+						<div class="icon_container d-flex flex-column justify-content-end">
+							<img src="../../../assets/img/blackboard.svg" alt="">
+						</div>
+						<h3>Công nghệ mới, chuyên sâu, thực tế</h3>
+						<p>Bạn được học và trải nghiệm các công nghệ lập trình mới nhất, chuyên sâu, bám sát nhu cầu tuyển dụng thực tế từ doanh
+							nghiệp.
+						</p>
+					</div>
+
+					<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+						<div class="icon_container d-flex flex-column justify-content-end">
+							<img src="../../../assets/img/mortarboard.svg" alt="">
+						</div>
+						<h3>Trao tay chìa khóa thành công toàn diện</h3>
+						<p>Hướng dẫn viết CV, phỏng vấn. Kết nối doanh nghiệp, gặp gỡ doanh nghiệp, phỏng vấn cùng doanh nghiệp ngay sau khi tốt
+							nghiệp.
+						</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- Testimonials -->
+
+		<div class="testimonials page_section">
+			<!-- <div class="testimonials_background" style="background-image:url(images/testimonials_background.jpg)"></div> -->
+			<div class="testimonials_background_container prlx_parent">
+				<div class="testimonials_background prlx" style="background-image:url(images/testimonials_background.jpg)"></div>
+			</div>
+			<div class="container">
+
+				<div class="row">
+					<div class="col">
+						<div class="section_title text-center">
+							<h1>Học Viên Chúng Tôi Nói Gì</h1>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-10 offset-lg-1">
+
+						<div class="testimonials_slider_container">
+
+							<!-- Testimonials Slider -->
+							<div class="owl-carousel owl-theme testimonials_slider">
+
+								<!-- Testimonials Item -->
+								<div class="owl-item">
+									<div class="testimonials_item text-center">
+										<div class="quote">“</div>
+										<p class="testimonials_text">Trước đây em đã từng học rất nhiều khóa online nhưng chỉ là kiến thức không áp dụng thực tiễn. Nhưng học tại Cybersoft
+											có bạn bè, trao đổi trực tiếp với giảng viên, có tinh thần và động lực học tập hơn là tự học ở nhà. </p>
+										<div class="testimonial_user">
+											<div class="testimonial_image mx-auto">
+												<img src="http://cybersoft.edu.vn/wp-content/uploads/2017/11/DaoLapXuan_FrontEnd03-40x40_c.jpg" alt="">
+											</div>
+											<div class="testimonial_name">Đào Lập Xuân</div>
+											<div class="testimonial_title">Front End 3</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Testimonials Item -->
+								<div class="owl-item">
+									<div class="testimonials_item text-center">
+										<div class="quote">“</div>
+										<p class="testimonials_text">Đây là trung tâm đầu tiên mà học tập nhưng nhận được rất nhiều nguồn cảm hứng và động lực. Mình được định hướng
+											rõ ràng để trở thành một front end chuyên nghiệp. Được thực hành rất nhiều dự án thực tế. Mỗi lần mà mình không
+											hiểu hoặc thiếu kiến thức thì được giảng viên và mentor hỗ trợ ngay. Được học rất nhiều công nghệ mới. Mình cảm
+											thấy rất tuyệt vời và cám ơn cybersoft rất nhiều</p>
+										<div class="testimonial_user">
+											<div class="testimonial_image mx-auto">
+												<img src="http://cybersoft.edu.vn/wp-content/uploads/2017/11/20729488_1912755045664979_8931550530887600332_n-40x40_c.jpg"
+												 alt="">
+											</div>
+											<div class="testimonial_name">Võ Minh Đức</div>
+											<div class="testimonial_title">Front End 1</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Testimonials Item -->
+								<div class="owl-item">
+									<div class="testimonials_item text-center">
+										<div class="quote">“</div>
+										<p class="testimonials_text">Mình từng học một vài khóa ngắn hạn, mình thấy mô hình CyberSoft rất hay. Học và thực hành ngay trên lớp. dạy rất
+											trực quan, dễ hiểu. Có anh trợ giảng góp ý bài tập tụi mình làm nữa. Bài tập thì nhiều vô số kể nên hiểu sâu được
+											vấn đề đã học trên lớp. Và những bài tập tự mình tìm kiến thức để làm bài tập, hôm sau đi học như được giải đáp
+											bởi bài mới. Vỡ òa ra "A RA LÀ THẾ". Mỗi lần làm bài tập như được hiểu lại một lần nữa. Thầy còn cho rất nhiều
+											tư liệu kham khảo. Lúc nào có cảm giác muốn làm bài tập, lên ngay một vài trang tìm cảm hứng. Thế là vào làm bài
+											tập ngay. Điều mình thích nhất ở CyberSoft, là tạo cho mình môi trường tự giác và phấn khởi dù không đang ngồi
+											học trên lớp.</p>
+										<div class="testimonial_user">
+											<div class="testimonial_image mx-auto">
+												<img src="http://cybersoft.edu.vn/wp-content/uploads/2017/11/DIEM_HUONG_FRONT_END_03-40x40_c.jpg" alt="">
+											</div>
+											<div class="testimonial_name">Vũ Diễm Hươngr</div>
+											<div class="testimonial_title">Front End 3</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- Events -->
+
+		<div class="events page_section">
+			<div class="container">
+
+				<div class="row">
+					<div class="col">
+						<div class="section_title text-center">
+							<h1>Upcoming Events</h1>
+						</div>
+					</div>
+				</div>
+
+				<div class="event_items">
+
+					<!-- Event Item -->
+					<div class="row event_item">
+						<div class="col">
+							<div class="row d-flex flex-row align-items-end">
+
+								<div class="col-lg-2 order-lg-1 order-2">
+									<div class="event_date d-flex flex-column align-items-center justify-content-center">
+										<div class="event_day">07</div>
+										<div class="event_month">January</div>
+									</div>
+								</div>
+
+								<div class="col-lg-6 order-lg-2 order-3">
+									<div class="event_content">
+										<div class="event_name">
+											<a class="trans_200" href="#">Student Festival</a>
+										</div>
+										<div class="event_location">Grand Central Park</div>
+										<p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi
+											malesuada, finibus tortor.</p>
+									</div>
+								</div>
+
+								<div class="col-lg-4 order-lg-3 order-1">
+									<div class="event_image">
+										<img src="../../../assets/img/event_1.jpg" alt="https://unsplash.com/@theunsteady5">
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					<!-- Event Item -->
+					<div class="row event_item">
+						<div class="col">
+							<div class="row d-flex flex-row align-items-end">
+
+								<div class="col-lg-2 order-lg-1 order-2">
+									<div class="event_date d-flex flex-column align-items-center justify-content-center">
+										<div class="event_day">07</div>
+										<div class="event_month">January</div>
+									</div>
+								</div>
+
+								<div class="col-lg-6 order-lg-2 order-3">
+									<div class="event_content">
+										<div class="event_name">
+											<a class="trans_200" href="#">Open day in the Univesrsity campus</a>
+										</div>
+										<div class="event_location">Grand Central Park</div>
+										<p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi
+											malesuada, finibus tortor.</p>
+									</div>
+								</div>
+
+								<div class="col-lg-4 order-lg-3 order-1">
+									<div class="event_image">
+										<img src="../../../assets/img/event_2.jpg" alt="https://unsplash.com/@claybanks1989">
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					<!-- Event Item -->
+					<div class="row event_item">
+						<div class="col">
+							<div class="row d-flex flex-row align-items-end">
+
+								<div class="col-lg-2 order-lg-1 order-2">
+									<div class="event_date d-flex flex-column align-items-center justify-content-center">
+										<div class="event_day">07</div>
+										<div class="event_month">January</div>
+									</div>
+								</div>
+
+								<div class="col-lg-6 order-lg-2 order-3">
+									<div class="event_content">
+										<div class="event_name">
+											<a class="trans_200" href="#">Student Graduation Ceremony</a>
+										</div>
+										<div class="event_location">Grand Central Park</div>
+										<p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi
+											malesuada, finibus tortor.</p>
+									</div>
+								</div>
+
+								<div class="col-lg-4 order-lg-3 order-1">
+									<div class="event_image">
+										<img src="../../../assets/img/event_3.jpg" alt="https://unsplash.com/@juanmramosjr">
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+		<!-- Footer -->
+
+		<footer class="footer">
+			<div class="container">
+
+				<!-- Newsletter -->
+
+				<div class="newsletter">
+					<div class="row">
+						<div class="col">
+							<div class="section_title text-center">
+								<h1>Hãy Subscribe để nhận những thông tin mới nhất</h1>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col text-center">
+							<div class="newsletter_form_container mx-auto">
+								<form action="post">
+									<div class="newsletter_form d-flex flex-md-row flex-column flex-xs-column align-items-center justify-content-center">
+										<input id="newsletter_email" class="newsletter_email" type="email" placeholder="Nhập Địa Chỉ Email" required="required" data-error="Valid email is required.">
+										<button id="newsletter_submit" type="submit" class="newsletter_submit_btn trans_300" value="Submit">Subscribe</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<!-- Footer Content -->
+
+				<div class="footer_content">
+					<div class="row">
+
+						<!-- Footer Column - About -->
+						<div class="col-lg-4 footer_col">
+
+							<!-- Logo -->
+							<div class="logo_container">
+								<div class="logo">
+									<img src="../../../assets/img/logo.png" alt="" style="max-width: 90%; max-height: 100%;">
+								</div>
+							</div>
+
+							<p class="footer_about_text">CyberSoft Academy là học viện tiên phong tại Việt Nam áp dụng phương pháp đào tạo Active Learning và Flipped Learning
+								thông qua các dự án thực tiễn trong lĩnh vực đào tạo CNTT.</p>
+
+						</div>
+
+						<!-- Footer Column - Menu -->
+
+						<div class="col-lg-4 footer_col">
+							<div class="footer_column_title">Menu</div>
+							<div class="footer_column_content">
+								<ul>
+									<li class="footer_list_item">
+										<a href="#">Home</a>
+									</li>
+									<li class="footer_list_item">
+										<a href="#">Về Chúng Tôi</a>
+									</li>
+									<li class="footer_list_item">
+										<a href="courses.html">Khóa Học</a>
+									</li>
+									<li class="footer_list_item">
+										<a href="contact.html">Liên Hệ</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- Footer Column - Contact -->
+
+						<div class="col-lg-4 footer_col">
+							<div class="footer_column_title">Contact</div>
+							<div class="footer_column_content">
+								<ul>
+									<li class="footer_contact_item">
+										<div class="footer_contact_icon">
+											<img src="../../../assets/img/placeholder.svg" alt="https://www.flaticon.com/authors/lucy-g">
+										</div>
+										459 Sư Vạn Hạnh, Quận 10 - HCM
+									</li>
+									<li class="footer_contact_item">
+										<div class="footer_contact_icon">
+											<img src="../../../assets/img/smartphone.svg" alt="https://www.flaticon.com/authors/lucy-g">
+										</div>
+										+84 961.05.10.14
+									</li>
+									<li class="footer_contact_item">
+										<div class="footer_contact_icon">
+											<img src="../../../assets/img/envelope.svg" alt="https://www.flaticon.com/authors/lucy-g">
+										</div>info@cybersoft.edu.vn
+									</li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<!-- Footer Copyright -->
+
+				<div class="footer_bar d-flex flex-column flex-sm-row align-items-center">
+					<div class="footer_copyright">
+						<span>
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							Copyright &copy;
+							<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with
+							<i class="fa fa-heart" aria-hidden="true"></i> by
+							<a target="_blank">Dang</a>
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						</span>
+					</div>
+					<div class="footer_social ml-sm-auto">
+						<ul class="menu_social">
+							<li class="menu_social_item">
+								<a href="#">
+									<i class="fab fa-pinterest"></i>
+								</a>
+							</li>
+							<li class="menu_social_item">
+								<a href="#">
+									<i class="fab fa-linkedin-in"></i>
+								</a>
+							</li>
+							<li class="menu_social_item">
+								<a href="#">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</li>
+							<li class="menu_social_item">
+								<a href="#">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+							</li>
+							<li class="menu_social_item">
+								<a href="#">
+									<i class="fab fa-twitter"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</footer>
+
+	</div>
+
+	<script src="../../../assets/js/jquery-3.2.1.min.js"></script>
+	<script src="../../../assets/css/bootstrap4/popper.js"></script>
+	<script src="../../../assets/css/bootstrap4/bootstrap.min.js"></script>
+	<script src="../../../plugins/greensock/TweenMax.min.js"></script>
+	<script src="../../../plugins/greensock/TimelineMax.min.js"></script>
+	<script src="../../../plugins/scrollmagic/ScrollMagic.min.js"></script>
+	<script src="../../../plugins/greensock/animation.gsap.min.js"></script>
+	<script src="../../../plugins/greensock/ScrollToPlugin.min.js"></script>
+	<script src="../../../plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+	<script src="../../../plugins/scrollTo/jquery.scrollTo.min.js"></script>
+	<script src="../../../plugins/easing/easing.js"></script>
+	<script src="../../../assets/js/custom.js"></script>
+	<script src="https://unpkg.com/sweetalert2@7.20.5/dist/sweetalert2.all.js"></script>
+	<script src="../../models/NguoiDung.js"></script>
+	<script src="../../models/DanhSachNguoiDung.js"></script>
+    <script src="../../models/KhoaHoc.js"></script>
+    <script src="../../models/DanhSachKhoaHoc.js"></script>  
+    <!-- Kết nối KhoaHocService -->
+    <script src="../../services/KhoaHocService.js"></script>
+    <script src="../../services/NguoiDungService.js"></script>
+    <!-- CK editor -->
+    <script src="https://cdn.ckeditor.com/4.9.2/standard/ckeditor.js"></script>
+    <script src="../../controllers/DanhSachKhoaHoc.js"></script>  
+	<script src="../../controllers/index.js"></script>
+</body>
+
+</html>
